@@ -1,0 +1,27 @@
+# Site settings
+title: Life & Learnings Untangled
+brand-title: Rahul Verma's blog
+header-img: img/home-bg.jpg
+email: rv@videoder.com
+copyright_name: Rahul Verma
+description: "A Collection of facts, learnings and codes that I feel like sharing with everyone :)"
+baseurl: ""
+url: "http://surahul.com"
+instagram_username: rahul.vdev
+twitter_username: iamsurahul
+github_username: surahul
+facebook_username: iamsurahul
+email_username: rv@videoder.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
